@@ -3,7 +3,9 @@ Learn Angular 2 in Baby Steps
 
 We will be using VSCode as our Editor, just open the project file in VSCode. Read the readme.md file in each project.
 
-Install VS Code Editor: https://code.visualstudio.com/
+First we need install notejs: https://nodejs.org/en/
+
+Run: `npm install –g angular-cli`Install VS Code Editor: https://code.visualstudio.com/
 
 Install git: https://git-scm.com/download
 
