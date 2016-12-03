@@ -4,9 +4,9 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 First we need install notejs: https://nodejs.org/en/
 
-Run: npm install –g angular-cli
+Run: `npm install –g angular-cli`
 
-Run: ng new step01_angular_cli
+Run: `ng new step01_angular_cli`
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
