@@ -11,4 +11,4 @@ Create github repository lean-angular2, go to "clone and download", copy the url
 
 Go to workspace, type: git clone https://github.com/qunsheng/learn-angular2.git
 
-Open the folder using code, modify the readme.md, save the file, then click git button in Code, stage then push
+Open the folder using code, modify the readme.md, save the file, then click git button in Code, 1) stage the file; 2) type message then commit; 3) click ... button, click push
