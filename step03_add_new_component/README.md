@@ -22,6 +22,8 @@ Modify app.module.ts:
 
 Modify app.component.ts, add tag <user></user> somewhere in template
 
+Then you will see the new user component show up in browser
+
 
 
 

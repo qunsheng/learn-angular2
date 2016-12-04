@@ -16,11 +16,13 @@ npm install
 npm start
 ```
 
+Then you will see "Hollo Angular" show up in browser.
+
 The `npm start` command first compiles the application, 
 then simultaneously re-compiles and runs the `lite-server`.
 Both the compiler and the server watch for file changes.
 
 Shut it down manually with `Ctrl-C`.
 
-You're ready to write your application.
+
 
