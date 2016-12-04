@@ -1,8 +1,20 @@
 # Add New component 'user'
 
-Create workspace by following previous step
+
+
+## Install npm packages
+
+
+Run:
+
+```bash
+npm install
+npm start
+```
 
 Make sure `npm start` is running and simultaneously re-compiles the workspace
+
+## Add New component 'user'
 
 Add new folder 'components' under app folder
 
