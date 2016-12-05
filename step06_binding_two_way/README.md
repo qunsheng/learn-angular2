@@ -17,12 +17,8 @@ npm start
 ```
 
 ## Binding two way
-`
-<input [(ngModel)]="name" >
-What this is doing behind the scenes is equivalent to:
-<input [ngModel]="name" (ngModelChange)="name=$event">
 
-`
+[(ngModel)]:  What this is doing behind the scenes is equivalent to:  [ngModel] + (ngModelChange)
 
 Modify app.component.ts:
 1) use templateUrl: app/app.component.html instead of template
