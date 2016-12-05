@@ -17,10 +17,12 @@ npm start
 ```
 
 ## Binding two way
-
+`
 <input [(ngModel)]="name" >
 What this is doing behind the scenes is equivalent to:
 <input [ngModel]="name" (ngModelChange)="name=$event">
+
+`
 
 Modify app.component.ts:
 1) use templateUrl: app/app.component.html instead of template
@@ -32,9 +34,9 @@ Create app.component.html:
 3) bind countChange event
 
 Create new component counter.component.ts:
-1) create new folder components
-2) create new template file counter.component.html
-3) create new ts file counter.component.ts:
+1) create new folder components; 
+2) create new template file counter.component.html; 
+3) create new ts file counter.component.ts.
 
 To create your own component that supports two-way binding, 
 you must define an @Output property to match an @Input, but suffix it with the Change. 
