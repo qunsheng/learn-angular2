@@ -1,7 +1,6 @@
 # Two-way data binding by importing FormsModule
 
-Two-way data binding combines the input and output binding into a single notation using the ngModel directive.+
-
+Now ngModel directive belongs to FormsModule, we can do two way binding by just importing FormsModule
 
 ## Install npm packages and start compilor
 
