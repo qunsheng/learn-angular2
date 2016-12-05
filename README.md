@@ -5,7 +5,6 @@ We will be using VSCode as our Editor, just open the project file in VSCode. Rea
 
 First we need install notejs: https://nodejs.org/en/
 
-Run: `npm install –g angular-cli`
 
 Install VS Code Editor: https://code.visualstudio.com/
 
