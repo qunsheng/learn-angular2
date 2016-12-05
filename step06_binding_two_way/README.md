@@ -21,13 +21,13 @@ npm start
 [(ngModel)]:  What this is doing behind the scenes is equivalent to:  [ngModel] + (ngModelChange)
 
 Modify app.component.ts:
-1) use templateUrl: app/app.component.html instead of template
-2) implement onCountChanged method
+1) use templateUrl: app/app.component.html instead of template;
+2) implement onCountChanged method.
 
 Create app.component.html:
-1) add new file app.component.html
-2) use [()] to do the two way Binding
-3) bind countChange event
+1) add new file app.component.html;
+2) use [()] to do the two way Binding;
+3) bind countChange event.
 
 Create new component counter.component.ts:
 1) create new folder components; 
