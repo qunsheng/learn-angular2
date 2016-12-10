@@ -12,11 +12,13 @@ var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
         this.name = 'Name Property';
+        this.isActiveB1 = true;
+        this.isActiveB2 = false;
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<input [value]=\"'Hello ' + name\">"
+            template: "<input [value]=\"'Hello ' + name\">\n            <button class=\"btn btn-default\" \n            [class.active]=\"isActiveB1\" [style.color] = \"isActiveB1?'blue':'red'\">\n            button1</button>\n            <button class=\"btn btn-default\" [class.active]=\"isActiveB2\" [style.color] = \"isActiveB2?'blue':'red'\">\n            button2</button>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
