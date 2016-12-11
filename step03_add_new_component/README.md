@@ -18,7 +18,7 @@ Make sure `npm start` is running and simultaneously re-compiles the workspace
 
 Add new folder 'components' under app folder
 
-Add new file user.component.js under components folder
+Add new file user.component.ts under components folder
 
 You should see user.component.ts file and user.component.js.map will automatically generated
 
