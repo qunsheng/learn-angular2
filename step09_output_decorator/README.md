@@ -1,6 +1,5 @@
 
-
-# passing data from parent component to child component using @Input
+# passing data from chile component to parent component using @Output
 
 ## Install npm packages
 
@@ -36,15 +35,8 @@ Modify app.component.ts, add tag <child-one></child-one> somewhere in template
 
 Then you will see the new child-one component show up in browser
 
-## passing data from parent component to child component using @Input
+## passing data from chile component to parent component using @Output
 
-Modify app.component.ts, prepare a data object
+Modify app.component.ts to add a event binding for custom event onYell
 
-Modify app.component.ts, use property binding to bind data to chile component
-
-Modify childOne.component.ts, use @input decorator to receive the input from parent componnet
-
-Modify childOne.component.ts, use the data passed from parent component in childOne component
-
-
-
+Modify childOne.components.ts using @output and EventEmitter to fire onYell event
