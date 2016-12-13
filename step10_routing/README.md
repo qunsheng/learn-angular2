@@ -31,4 +31,4 @@ create/edit app.router.ts file, define the paths.
 
 Modify app.module.ts to import newly crated routes module
 
-## Add <router-outlet></router-outlet> to app.component.html
+## Add router-outlet tag to app.component.html
