@@ -1,0 +1,12 @@
+
+        <h2>ngFor</h2>
+        
+        <div *ngFor="let person of people; let isOdd=odd; trackBy:trackByPeople">
+            <span [class.highlight]="isOdd">{{person.name.forename}} {{person.name.surname}}</span>
+        </div>
+        
+        <h3>For Loop</h3>
+        
+        <span *ngFor="let item of forLoopArray(15); let i=index; let last=last">
+            <span>{{i+1}}{{last ? '' : ','}}</span>
+        </span>
