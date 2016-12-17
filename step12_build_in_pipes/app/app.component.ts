@@ -16,6 +16,13 @@ import { Component } from '@angular/core';
     <p>{{grade | percent:'.2'}}</p>
     <!-- 09.12 -->
     <p>{{rating | number:'2.1-2'}}</p>
+
+    <h1>String</h1>
+
+    <p> {{ name | uppercase}}</p>
+    <p> {{ name | lowercase}}</p>
+    <p> {{ name | slice: '2':'4'}}</p>
+ 
   `,
 })
 export class AppComponent  { 
@@ -23,9 +30,12 @@ export class AppComponent  {
   grade: number;
   rating: number;
 
+  name: string;
+
   constructor() {
     this.date = new Date();
     this.grade = 0.99;
     this.rating = 9.1243;
+    this.name = "Morgan Stanley";
   }
  }
