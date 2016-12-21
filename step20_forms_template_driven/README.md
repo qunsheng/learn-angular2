@@ -15,8 +15,8 @@ npm start
 
 ## Template-driven forms
 
-Modify app.component.ts to add a reqular forms
-1) disable html 5 validation using novalidate
+Modify app.component.ts to add a reqular forms:
+1) disable html 5 validation using novalidate;
 2) Create local variable form using ngForm;
 3) Bind logForm method on form submit;
 4) Bind input field using ngModel;
